@@ -1,0 +1,31 @@
+# Secrets
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node / frontend build
+node_modules/
+dist/
+dist-ssr/
+
+# Model weights: too large for git (vgg16_best.pt is ~1.6 GB).
+# Share them separately (Drive, release assets, or Git LFS).
+*.pt
+*.pth
+*.onnx
+
+# Generated outputs (annotated images, AI reports, incident log)
+outputs/
+disaster-vision/outputs/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+path: /content/drive/MyDrive/stage9_yolo
+train: train/images
+val: val/images
+test: test/images
+nc: 5
+names:
+  0: no-damage
+  1: minor-damage
+  2: major-damage
+  3: destroyed
+  4: un-classified
